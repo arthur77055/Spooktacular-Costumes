@@ -1,7 +1,36 @@
 body {
-    background-color:#121212
-}
-.title {
-    color:white;
+    background-color:#121212;
     font-family:helvetica;
+}
+.top {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+#title {
+
+    font-size:50px;
+    display:flex;
+    justify-content:center;
+    color:white;
+    margin:0;
+    padding-bottom:5px;
+}
+#description {
+    font-size:20px;
+    display:flex;
+    color:white;
+    font-weight:500;
+    margin:0;
+}
+#pumpkin {
+    height: 200px;
+    float:right;
+}
+.costumes {
+    padding-top:40px;
+    color:white;
 }
